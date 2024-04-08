@@ -7,7 +7,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { SiInstatus } from "react-icons/si";
 import { FaFacebookSquare } from "react-icons/fa";
 import  rasm4 from '../../components/img/peopli1.png'
-import  rasm5 from '../../components/img/peopli1.png'
+import  rasm5 from '../../components/img/mashina.png'
 import  rasm7 from '../../components/img/peopli2.png'
 import  rasm8 from '../../components/img/peopli3.png'
 import  rasm9 from '../../components/img/peopli4.png'
@@ -194,6 +194,10 @@ const Company = () => {
                         </div>
                     </div>
                  </div>
+                </div>
+
+                <div className="imagi">
+                  <img src={rasm5} alt="" />
                 </div>
             </div>
             
