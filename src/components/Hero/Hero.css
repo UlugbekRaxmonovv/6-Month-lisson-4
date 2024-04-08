@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.card-all{
+    padding: 20px 0;
+}
+.card{
+    max-width: 1240px;
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 20px 0px 0px 0px;
+    box-shadow: 0px 4px 20px 0px #00000026;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 151.1px;
+}
+.card-hammasi{
+    max-width: 308px;
+    width: 100%;
+    height: 245px;
+    top: 721px;
+    left: 180px;
+    gap: 0px;
+    opacity: 0px;
+    width: 261px;  
+    border-right: 1px solid rgb(225, 225, 225);
+}
+.card-hammasi >img{
+    max-width: 92px;
+    width: 100%;
+    height: 92px;
+}
+.card-hammasi >h1{
+    max-width: 220px;
+    height: 48px;
+    width: 100%;
+    font-family: Exo 2;
+font-size: 20px;
+font-weight: 600;
+line-height: 27px;
+text-align: left;
+
+    
+}
+.card-hammasi >p{
+    width: 225px;
+    height: 65px;
+    font-family: PT Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+ 
+}
+
+@media(max-width:990px){
+    .card{
+        max-width: 940px;
+        width: 100%;
+        padding: 20px 0;
+        border-radius: 20px 0px 0px 0px;
+        box-shadow: 0px 4px 20px 0px #00000026;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media(max-width:700px){
+    .card{
+        max-width:630px;
+        width: 100%;
+        padding: 20px 0;
+        border-radius: 20px 0px 0px 0px;
+        box-shadow: 0px 4px 20px 0px #00000026;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media(max-width:500px){
+    .card{
+        max-width:450px;
+        width: 100%;
+        padding: 20px 0;
+        border-radius: 20px 0px 0px 0px;
+        box-shadow: 0px 4px 20px 0px #00000026;   
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .card-hammasi{
+        max-width: 308px;
+        width: 100%;
+        height: 245px;
+        top: 721px;
+        left: 180px;
+        gap: 0px;
+        opacity: 0px;
+        width: 261px; 
+        border-right:none; 
+        
+    }
+    .card-hammasi:active{
+        border-right: 1px solid rgb(225, 225, 225);
+        transform: scale(1.01);
+    }
+
+}
+
+
+
+@media(max-width:400px){
+    .card{
+        max-width:380px;
+        width: 100%;
+        padding: 20px 0;
+        border-radius: 20px 0px 0px 0px;
+        box-shadow: 0px 4px 20px 0px #00000026;   
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media(max-width:320px){
+    .card{
+        max-width:300px;
+        width: 100%;
+        padding: 20px 0;
+        border-radius: 20px 0px 0px 0px;
+        box-shadow: 0px 4px 20px 0px #00000026;   
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .card-hammasi >img{
+        max-width: 70px;
+        width: 100%;
+        height: 70px;
+    }
+}
+
+
+

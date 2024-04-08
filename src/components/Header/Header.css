@@ -3,6 +3,7 @@
 .container{
     max-width: 1240px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 body{
     font-family: "Lato", sans-serif;
@@ -58,11 +59,25 @@ header{
         justify-content: center;
         align-items: center;
         transition: .3s ease;
+        line-height: 2;
         z-index: 10;
         transform-origin: top;
         transform: scaleY(0);
     }
     .navbar__collection.show{
         transform: scaleY(1);
+    }
+}
+@media screen and (max-width:700px) {
+    .navbar__menu{
+        display: block;
+       margin-right: 10%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .navbar__menu{
+        display: block;
+       margin-right: 10%;
     }
 }

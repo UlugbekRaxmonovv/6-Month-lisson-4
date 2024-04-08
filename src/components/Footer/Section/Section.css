@@ -1,0 +1,138 @@
+.creat{
+    padding: 50px 0;
+}
+.creat-all >h1{
+    font-family: Exo 2;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    
+}
+.creat-all >p{
+    max-width: 667px;
+    width: 100%;
+    font-family: PT Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+    
+}
+
+
+.creat-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.creat-all1{
+    max-width: 393px;
+    width: 100%;
+    height: 440px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 15px 5px rgb(237, 237, 237);
+    
+}
+.creat-all1 >img{
+    max-width: 393px;
+    width: 100%;
+    height: 247px;    
+}
+.all-row {
+    padding:  0 25px;
+}
+.all-row >h1{
+    font-family: Exo 2;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    
+}
+.all-row>p{
+    max-width: 291px;
+    width: 100%;
+    height: 41px;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+}
+.all-row>h2{
+    font-family: Exo 2;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: left;
+    border-bottom: 3px solid #FFCE50;
+    max-width: 100px;
+    width: 100%;
+    
+}
+
+
+@media(max-width:700px){
+    .creat{
+        padding: 50px 0;
+    }
+    .creat-all >h1{
+        font-family: Exo 2;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 40px;
+      text-align: center;
+        
+    }
+    .creat-all >p{
+        max-width: 500px;
+        width: 100%;
+        font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    
+        
+    }
+}
+
+@media screen and (max-width:500px) {
+    .navbar__menu{
+        display: block;
+       margin-right: 10%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .navbar__menu{
+        display: block;
+       margin-right: 10%;
+    }
+    .creat-all >h1{
+        font-family: Exo 2;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+      text-align: center;
+        
+    }
+    .all-row>h2{
+        font-family: Exo 2;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 40.6px;
+        text-align: left;
+        border-bottom: 3px solid #FFCE50;
+        max-width: 100px;
+        width: 100%;
+        margin-top: 8%;
+        
+    }
+}
