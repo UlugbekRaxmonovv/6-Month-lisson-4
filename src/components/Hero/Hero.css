@@ -25,7 +25,6 @@ body{
     top: 721px;
     left: 180px;
     gap: 0px;
-    opacity: 0px;
     width: 261px;  
     border-right: 1px solid rgb(225, 225, 225);
 }
@@ -104,10 +103,6 @@ text-align: left;
         max-width: 308px;
         width: 100%;
         height: 245px;
-        top: 721px;
-        left: 180px;
-        gap: 0px;
-        opacity: 0px;
         width: 261px; 
         border-right:none; 
         
