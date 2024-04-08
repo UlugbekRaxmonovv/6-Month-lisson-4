@@ -114,6 +114,9 @@ footer{
         font-size: 18px;
         margin-top: 10px;
     }
+    .footur-all >h1{
+        font-size: 42px;
+    }
 
 }
 
